@@ -36,6 +36,7 @@ courseRouter.post('/create-course', (req: Request, res: Response) => {
     message: "course created successfully",
     data: course,
   })
+  
 })
 
 const logger = (req: Request, res: Response, next: NextFunction) => {
